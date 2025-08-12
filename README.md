@@ -1,5 +1,8 @@
 <h1>Dashboard interativo para Análise de Dados</h1>
 
+<h2>Website 💻</h2>
+<p>https://dashboard-dados-salariais-imersao-alura2025.streamlit.app/</p>
+
 <h2>Sobre</h2>
 <p>Código Python desenvolvido durante a Imersão de Dados com Python da Alura em 2025, onde criamos gráficos e utilizamos o StreamLit para hospedar nosso dashboard online. Obtivemos este banco de dados pelo Kaggle, que retrata as questões financeiras de cargos de TI pelo mundo.</p>
 <p>Desenvolvido na IDE Pycharm</p>
