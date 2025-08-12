@@ -76,7 +76,7 @@ if not df_filtrado.empty:
     col1.metric("Salário médio", f"${salario_medio:,.0f}")
     col2.metric("Salário máximo", f"${salario_maximo:,.0f}")
     col3.metric("Total de registros", f"{total_registros:,}")
-    col4.metric("Cargo mais frequente", cargo_mais_frequente)
+    col4.metric("Cargo mais comum", cargo_mais_frequente)
 else:
     st.warning('Nenhum dado para exibir as métricas')
 
@@ -112,7 +112,7 @@ with col_graf2:
             x='quantidade',
             y='cargo',
             orientation='h',
-            title="Top 10 cargos mais frequentes",
+            title="Top 10 cargos mais populares",
             labels={'quantidade': 'Quantidade', 'cargo': ''}
         )
         grafico_cargos_qntd.update_layout(title_x=0.1, yaxis={'categoryorder':'total ascending'})
